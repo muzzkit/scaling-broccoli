@@ -29,7 +29,7 @@ import {ERC20Burnable, ERC20} from "@openzeppelin/contracts/token/ERC20/extensio
 
 /*
  * @title: DecentralizedStableCoin
- * @author: Patrick "Long Course" Collins
+ * @author: Muzzkit
  * Collateral: Exogenous (ETH & BTC)
  * Minting: Algorithmic
  * Relative Stability: Pegged to USD
