@@ -147,7 +147,7 @@ contract DSCEngine is ReentrancyGuard {
      */
     function mintDsc(uint256 amountDscToMint) external moreThanZero(amountDscToMint) nonReentrant {
         s_DSCMinted[msg.sender] += amountDscToMint;
-        // if they minted too much i.e (user deposited $100 ETH and want to mint $150 DSC)
+        // if they minted too much e.g (user deposited $100 ETH and want to mint $150 DSC)
         _revertIfHealthFactorBroken(msg.sender);
     }
 
